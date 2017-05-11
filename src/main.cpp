@@ -5,10 +5,9 @@
 #include "classes/Challenger/Challenger.class.hpp"
 #include "classes/Population/Population.class.hpp"
 
-#define POP_LEN 10
-#define SELECT_NUMBER 3
-#define WINNERS_COUNT 3
-#define MUTATION_RATE 5
+#define POP_LEN 100
+#define WINNERS_COUNT 1
+#define MUTATION_RATE 2
 #define PRECISION_GOAL 0.9
 
 #define SIZE(tab) (sizeof(tab)/sizeof(tab[0]))
